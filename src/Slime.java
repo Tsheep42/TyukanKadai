@@ -1,7 +1,6 @@
 public final class Slime extends Character{
     public Slime(String name, int hp) {
-    super.name = name;
-    super.hp = hp;
+    super(name, hp);
 }
 
     public void attack(Character target){
