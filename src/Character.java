@@ -6,7 +6,7 @@ abstract class Character implements Creature {
         return hp > 0;
     }
 
-    void showStatus(){
+    public void showStatus(){
         System.out.println(this.name + ":" + this.hp);
     }
 }
