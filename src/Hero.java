@@ -15,4 +15,5 @@ public class Hero extends Character {
         System.out.println(this.name + "は回復の呪文を唱えた！HPが20回復した！");
         this.hp += 20;
     }
+
 }

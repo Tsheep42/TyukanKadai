@@ -1,4 +1,4 @@
-public class Slime extends Character{
+public final class Slime extends Character{
     public Slime(String name, int hp) {
     super.name = name;
     super.hp = hp;
